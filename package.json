@@ -1,5 +1,5 @@
 {
-    "name": "wrap-with-tacos",
+    "name": "taco-wrap",
     "version": "1.0.0",
     "description": "Takes a string and wraps it in taco emojis",
     "main": "dist/index.js",
@@ -10,7 +10,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/SirWernich/wrap-with-tacos.git"
+        "url": "git+https://github.com/SirWernich/taco-wrap.git"
     },
     "keywords": [
         "tacos",
