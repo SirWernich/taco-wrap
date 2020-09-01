@@ -11,9 +11,6 @@
     "repository": {
         "url": "git+https://github.com/SirWernich/taco-wrap.git"
     },
-    "publishConfig": {
-        "registry": "https://npm.pkg.github.com/"
-    },
     "keywords": [
         "tacos",
         "pointless"
