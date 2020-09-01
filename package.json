@@ -1,14 +1,37 @@
 {
-  "name": "wrap-with-tacos",
-  "version": "1.0.0",
-  "description": "Takes a string and wraps it in taco emojis",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "tacos"
-  ],
-  "author": "Wernich Wilsenach",
-  "license": "MIT"
+    "name": "wrap-with-tacos",
+    "version": "1.0.0",
+    "description": "Takes a string and wraps it in taco emojis",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/SirWernich/wrap-with-tacos.git"
+    },
+    "keywords": [
+        "tacos",
+        "pointless"
+    ],
+    "author": "Wernich Wilsenach",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/jest": "^26.0.10",
+        "jest": "^26.4.2",
+        "ts-jest": "^26.3.0",
+        "tslint": "^6.1.3",
+        "typescript": "^4.0.2"
+    },
+    "prettier": {
+        "printWidth": 120,
+        "trailingComma": "none",
+        "tabWidth": 4,
+        "useTabs": false,
+        "semi": true,
+        "singleQuote": true,
+        "bracketSpacing": true
+    }
 }

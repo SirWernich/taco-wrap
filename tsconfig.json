@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "ESNext",
+        "declaration": true,
+        "outDir": "./dist",
+        "removeComments": true,
+        "strict": true,
+        "noImplicitAny": true,
+        "baseUrl": ".",
+        "paths": {
+            "~/*": ["src/*"]
+        },
+        "types": ["node", "jest"],
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true
+    },
+    "exclude": ["bin", "dist", "node_modules", "tests", "**/*.spec.ts"]
+}
