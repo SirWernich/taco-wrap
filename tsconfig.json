@@ -3,11 +3,16 @@
         "target": "es5",
         "module": "CommonJS",
         "declaration": true,
-        "outDir": "./dist",
+        "sourceMap": true,
+        "rootDir": "src",
+        "outDir": "dist",
         "removeComments": true,
         "strict": true,
         "noImplicitAny": true,
         "baseUrl": ".",
+        "lib": [
+          "es2019"
+        ],
         "paths": {
             "~/*": ["src/*"]
         },
