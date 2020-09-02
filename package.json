@@ -1,6 +1,6 @@
 {
     "name": "@sir_wernich/taco-wrap",
-    "version": "1.0.7",
+    "version": "1.0.8",
     "description": "Takes a string and wraps it in taco emojis",
     "main": "./dist/index.js",
     "types": "./dist/index.d.ts",
