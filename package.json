@@ -6,8 +6,7 @@
     "types": "dist/index.d.ts",
     "scripts": {
         "build": "tsc",
-        "test": "jest",
-        "prepublish": "tsc"
+        "test": "jest"
     },
     "repository": {
         "url": "git+https://github.com/SirWernich/taco-wrap.git"
